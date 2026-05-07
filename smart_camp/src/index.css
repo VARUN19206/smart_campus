@@ -1,0 +1,234 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f4f6f9;
+  color: #333;
+}
+
+/* ================= LOGIN PAGE ================= */
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+.login-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.logo {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.login-card h1 {
+  margin-bottom: 5px;
+}
+
+.login-card p {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 15px;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.login-card button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #4facfe;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-card button:hover {
+  background: #007bff;
+}
+
+.auth-link {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+/* ================= DASHBOARD ================= */
+.dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: #1f2d3d;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 10px;
+}
+
+.sidebar p {
+  font-size: 13px;
+  margin-bottom: 20px;
+  color: #bbb;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  padding: 10px 0;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.sidebar ul li:hover {
+  color: #4facfe;
+}
+
+.logout {
+  margin-top: 20px;
+  padding: 8px;
+  width: 100%;
+  background: crimson;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Main */
+.main {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* Topbar */
+.topbar {
+  margin-bottom: 20px;
+}
+
+/* Stats */
+.stats {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.stat-card {
+  flex: 1;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Grid */
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* Panels */
+.panel {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.panel h2 {
+  margin-bottom: 10px;
+}
+
+/* Inputs */
+.panel input {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Buttons */
+.panel button {
+  margin-top: 10px;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  background: #4facfe;
+  color: white;
+  cursor: pointer;
+}
+
+.panel button.secondary {
+  background: #28a745;
+}
+
+/* Request cards */
+.request-card {
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 8px;
+  background: #f1f1f1;
+}
+
+/* Results */
+.result-panel {
+  margin-top: 20px;
+}
+
+.result-card {
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.result-card.success {
+  background: #d4edda;
+  color: #155724;
+}
+
+.result-card.fail {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+/* Empty */
+.empty {
+  color: gray;
+  font-size: 14px;
+  margin-top: 10px;
+}
