@@ -143,19 +143,6 @@ lecture_requests   → request_id, lecture_name, class_name,
 - Host the frontend on Vercel or Netlify
 
 ---
-## 📸 Screenshots
-
-### Login Page
-![Login](assets/login.png)
-
-### Dashboard
-![Dashboard](assets/dashboard.png)
-
-### Lecture Requests
-![Requests](assets/requests.png)
-
-### Allocation Results
-![Results](assets/results.png)
 
 ## 👨‍💻 Author
 
